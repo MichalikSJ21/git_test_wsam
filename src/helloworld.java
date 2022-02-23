@@ -14,6 +14,9 @@ public class helloworld {
         if(receive==69){
             return "Hell yeah";
         }
+        if(receive == 420){
+            return "I like 69, but that's good too";
+        }
         return "Wrong number, it's 69!!!!";
     }
 }
