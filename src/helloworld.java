@@ -6,6 +6,6 @@ public class helloworld {
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
         System.out.println("hello "+ name);
-        System.out.println("your mom");
+        System.out.println("your mom large");
     }
 }
