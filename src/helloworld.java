@@ -8,8 +8,9 @@ public class helloworld {
         System.out.println("hello "+ name);
         System.out.println("Pick a num");
         System.out.println(bestNumber(sc.nextInt()));
+        System.out.println("pick another num");
+        System.out.println(betterNumber(sc.nextInt()));
     }
-
     public static String bestNumber(int receive){
         if(receive==69){
             return "Hell yeah";
@@ -18,5 +19,12 @@ public class helloworld {
             return "I like 69, but that's good too";
         }
         return "Wrong number, it's 69!!!!";
+    }
+    public static String betterNumber(int receive){
+        if (receive==420){
+            return ("Hell yea pt.2 ");
+        } else {
+            return "clearly that's wrong";
+        }
     }
 }
