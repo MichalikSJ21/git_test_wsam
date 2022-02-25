@@ -31,7 +31,7 @@ public class helloworld {
     }
 
     public static String bestPerson(String person){
-        if(person == "Anna"){
+        if(person.equals("Anna")){
             return "Good, only correct answer";
         }
         else{
