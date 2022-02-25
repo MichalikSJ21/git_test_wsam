@@ -33,6 +33,8 @@ public class helloworld {
     public static String bestPerson(String person){
         if(person.equals("Anna")){
             return "Good, only correct answer";
+        } else if (person.equals("Mara")){
+            return "This is clearly the best answer";
         }
         else{
             return "Imagine being so wrong";
