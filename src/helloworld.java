@@ -29,7 +29,6 @@ public class helloworld {
             return "clearly that's wrong";
         }
     }
-
     public static String bestPerson(String person){
         if(person.equals("Anna")){
             return "Good, only correct answer";
