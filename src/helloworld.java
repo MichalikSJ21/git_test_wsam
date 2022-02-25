@@ -10,6 +10,8 @@ public class helloworld {
         System.out.println(bestNumber(sc.nextInt()));
         System.out.println("pick another num");
         System.out.println(betterNumber(sc.nextInt()));
+        System.out.println("Pick a person of fond nature");
+        System.out.println(bestPerson(sc.next()));
     }
     public static String bestNumber(int receive){
         if(receive==69){
@@ -25,6 +27,15 @@ public class helloworld {
             return ("Hell yea pt.2 ");
         } else {
             return "clearly that's wrong";
+        }
+    }
+
+    public static String bestPerson(String person){
+        if(person == "Anna"){
+            return "Good, only correct answer";
+        }
+        else{
+            return "Imagine being so wrong";
         }
     }
 }
